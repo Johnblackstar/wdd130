@@ -5,7 +5,7 @@ Fonts are separated by a & */
 @import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Romanesco&display=swap');
 
 :root {
-  # 3b429f-f4b860-6a994e-cfbff7-f28123"
+  /* 3b429f-f4b860-6a994e-cfbff7-f28123"
   /* change the values below to your colors from your palette */
   --primary-color: #3b429f   ;
   --secondary-color: #f4b860 ;
@@ -42,7 +42,8 @@ body {
 img {
   display: block;
   margin: 0 auto;
-  max-width: 300px;
+  width: 80%;
+  /*max-width: 300px;
 }
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--heading-font);
