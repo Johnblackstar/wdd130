@@ -1,0 +1,21 @@
+body {
+    text-align:center;
+}
+img {
+    width: 80%;
+    display: block;
+    max-width: 330px;
+    
+b
+    a {
+        font-size: 1.5em:
+    }
+   
+}
+:root {
+    --primary-color: #ffcbdd;
+    --secondary-color: white;
+    --accent1-color: black;
+    --heading-font: "Calibri (body)";
+    --paragraph-font: "Times New Roman,Helvetica,sans-serif";
+}
