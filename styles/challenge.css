@@ -1,0 +1,30 @@
+body {
+    text-align: center;
+  }
+  nav, footer {
+    background-color: steelblue;
+    color: white;
+    padding: 10px;
+  }
+  a:hoover {
+    background-color: white;
+    color:steelblue;
+    margin: 40px;
+  }
+  h1 {
+    color: steelblue;
+    text-align: center;
+
+  }
+  img {
+    width: 80%;
+    border: 2px solid blue;
+
+  }
+  p {
+    padding: 10px;
+  }
+  footer p {
+    font-size:20px;
+    margin: 20px auto;
+  }
