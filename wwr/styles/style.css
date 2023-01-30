@@ -9,7 +9,7 @@ body {
 
 }
 
-a  {
+a,.book {
     text-align: center;
 }
 
@@ -112,7 +112,7 @@ h1  {
     text-align: center;
      
 }
-img hero-msg {
+id hero-msg {
    
     width: 100%;
     display: block;
