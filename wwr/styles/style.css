@@ -10,10 +10,10 @@ body {
     margin:0;
 }
 
-.content {
+#content {
     max-width:  1600px;
     margin: 0 auto ;
-    text-align: center;
+    text-align:left;
 }
 
 header {
@@ -32,7 +32,10 @@ nav a {
     text-align: center;
     background-color:rgb(235, 235, 28);
     color:black;
-    padding: 10px;
+    padding: 5px;
+    margin-right: 30px;
+    text-decoration:none;
+
 
 }
 nav a:hover {
@@ -71,7 +74,7 @@ h4  {
     border-radius: 5px;
     font-family:  "Arial black","Brush Script MT",sans-serif;
     background-color:rgb(235, 235, 28);
-
+    text-decoration:none;
 }
 .book:hover {
     background-color:blueviolet;
@@ -81,6 +84,7 @@ h4  {
 }
 main section {
     text-align: center;
+    box-sizing:border-box;
 }
 
 #background  {
@@ -97,11 +101,17 @@ main section {
     margin: 200px 0;
 }
 
+.mountains {
+    box-sizing: border-box;
+    border: 10px solid rgb(99, 63, 184);
+    margin: 200px 0;
+}
+
 .icon   {
     padding-top: 10px;
 }
 .msg  {
-    background-color:white;
+    background-color:rgb(106, 190, 106);
     line-height: 1.5em;  
     padding: 35px;
 }
@@ -120,18 +130,23 @@ h2  {
     
 }
 
-.join   {
-    font-size: 18px;
-    color:red;
+.msg a   {
+    font-size: 18px; 
     border-radius: 5px;
     padding: 15px 30px;
-    font-family:  "Brush Script MT",sans-serif;
+    font-family:  "Arial black","Brush Script MT",sans-serif;
     background-color:yellow;
+    margin: 0 auto;
+    display:block;
+    max-width:  100px;
+    text-align: center;
+    text-decoration:none;
+
 
 }
 
 
-.join:hover {
+.msg a:hover {
     background:blueviolet;
     color:black;
     text-align: center;
@@ -153,7 +168,7 @@ footer a {
     text-decoration:none;
 }
 footer p a:hover {
-    text-decoration:underline;
+    text-decoration:none;
     color:yellow;
 }
 
