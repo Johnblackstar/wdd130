@@ -114,6 +114,7 @@ main section {
     background-color:rgb(106, 190, 106);
     line-height: 1.5em;  
     padding: 35px;
+    
 }
 
 h2  {
@@ -134,15 +135,13 @@ h2  {
     font-size: 18px; 
     border-radius: 5px;
     padding: 15px 30px;
-    font-family:  "Arial black","Brush Script MT",sans-serif;
     background-color:yellow;
     margin: 0 auto;
     display:block;
     max-width:  100px;
     text-align: center;
     text-decoration:none;
-
-
+    font-family:  "Arial Black","Brush Script MT",sans-serif;
 }
 
 
