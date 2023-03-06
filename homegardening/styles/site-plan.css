@@ -146,15 +146,17 @@ nav a:hover {
   background-color: #ccc;
   line-height: 3em;
 }
-.sm-page2 {
+.sm-location {
   grid-area: page2;
   background-color: #ccc;
   line-height: 3em;
+  text-align: left;
 }
-.sm-page3 {
+.sm-benefits {
   grid-area: page3;
   background-color: #ccc;
   line-height: 3em;
+  text-align: right;
 }
 
 .top {
