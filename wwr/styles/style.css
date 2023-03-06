@@ -293,13 +293,9 @@ h5 {
 }
 
 
-
-
-
-
 @media screen and (max-width: 900px) {
 
-    }
+    
     #hero, .home-grid {
         display: block;
         height: auto;
@@ -339,3 +335,4 @@ h5 {
     footer {
         margin-top: 25px;
     }
+}
