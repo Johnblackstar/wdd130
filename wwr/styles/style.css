@@ -266,6 +266,37 @@ footer a:hover {
     --nav-hover-background-color: #f4b860;
 }
 
+#content2 {
+    max-width:  1600px;
+    margin: 0 auto ;
+    text-align:left;
+}
+
+#waters {
+    display:grid;
+    grid-template-columns:1fr 1fr ;
+
+}
+
+h5 {
+    font-size: 20pt;
+} 
+#rafting {
+    display:grid;
+    grid-template-columns:1fr 2fr 1fr ;
+
+}
+
+
+.rafting-box {
+    grid-column: 1/5;
+}
+
+
+
+
+
+
 @media screen and (max-width: 900px) {
 
     }
