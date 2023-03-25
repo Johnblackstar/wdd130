@@ -18,7 +18,7 @@ body {
 
 header {
     display:  grid ;
-    grid-template-columns:150px auto ;
+    grid-template-columns:200px auto ;
     background-color:rgb(106, 190, 106);
 } 
 #menu {
@@ -36,7 +36,7 @@ header {
 }
 
 .logo  {
-    width: 80px
+    width: 160px
 }
 
 
