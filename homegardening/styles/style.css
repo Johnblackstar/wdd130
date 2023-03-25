@@ -21,7 +21,7 @@ body {
 
 header {
     display:  grid ;
-    grid-template-columns:200px 4fr 1fr ;
+    grid-template-columns:200px 4fr 40px ;
     background-color:rgb(106, 190, 106);
 } 
 
@@ -130,7 +130,7 @@ h2  {
 }
 
 h2  {
-    font-family: "faustina","Brush Script MT",sans-serif;
+    font-family: "Labrada","Brush Script MT",sans-serif;
     color:blue;
     margin:0; 
     text-align: center; 
@@ -162,13 +162,24 @@ h2  {
     grid-column:1/2 ;
     grid-row: 2/3;
 }
+.plants {
+    grid-column:1/2 ;
+    grid-row: 3/4;
+}
 
 #text2 {
     grid-column: 2/3;
     grid-row: 3/4;
 }
+p {
+    font:"faustina";
+    font-size:  27px;
+}
 
 
+.img {
+    grid-column: 2/3;
+}
  
 
 
