@@ -4,18 +4,26 @@
 body {
     background-color:white;
     font-size: 22px;
-    font-family:'Labrada', 'Faustina', 'Lucida Grande', sans-serif;
+    font-family:"Labrada", "Georgia", serif;
     padding: 0;
     margin:0;
 }
 
 #content {
     max-width:  1600px;
+    margin: 0 auto ;
+    text-align:left;
+    margin-top: 5px;
+}
+#content1 {
+    max-width:  1600px;
+
    
     margin: 0 auto ;
     text-align:left;
     margin-top: 5px;
 }
+
 
 
 
@@ -34,7 +42,20 @@ header {
     height: 5px;
     background-color: black;
     margin: 6px 0;
-  }
+}
+#menu1 {
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 6px 0;
+}
+#menu2 {
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 6px 0;
+}
+
 
 
 #logo_link  {
@@ -72,24 +93,27 @@ nav a:hover {
     margin-top: 50px
 
 }
+#planting-box{
+    grid-column: 1/2;
+}
 
 
 #planting-msg   {
     color: white;
-    font-family: Labrada;
+    font-family: "Labrada", "Georgia", serif;
     
 }
 .home-title {
-    font-family: "Labrada","Faustina",sans-serif;
+    font-family: "Labrada", "Georgia", serif;
     font-size:2em;
-    grid-column: 2/3;
+    grid-column: 1/3;
     text-align: center;
     color:blue;
     margin-top: 10px;
 }
 
 h1 {
-    font:"Labrada" ;
+    font:"Labrada", "Georgia", serif ;
     width: 100%;
     display: block;
     margin: 0 auto;
@@ -105,10 +129,12 @@ main  {
 }
 
 h2  {
-    font-family:  "Faustina","Brush Script MT",sans-serif;
-    color:black;
+    font-family:"Labrada", "Georgia", serif "Faustina", "Times New Roman", serif;
+
+    color:blue;
     text-align: center;
 }
+
 #planting-card {
     grid-column-start: 2;
     grid-column-end: 3;
@@ -129,22 +155,20 @@ h2  {
 
 }
 
-h2  {
-    font-family: "Labrada","Brush Script MT",sans-serif;
+h1  {
+    font-family: "Labrada", "Georgia", serif;
+
     color:blue;
     margin:0; 
     text-align: center; 
 }  
 
-.msg p  {
-    font-size: .8em;
-    color:black;
-    padding-bottom: 15px;
-    font-family:  "faustina","Brush Script MT",sans-serif;
+
     
-}
+
 
 #planting-grid {
+    display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr;
   
@@ -172,7 +196,8 @@ h2  {
     grid-row: 3/4;
 }
 p {
-    font:"faustina";
+    font:"Faustina", "Times New Roman", serif;
+
     font-size:  27px;
 }
 
@@ -181,7 +206,27 @@ p {
     grid-column: 2/3;
 }
  
+#fruit-grid {
+    display:grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows:400px ;
 
+ 
+}
+
+#chili {
+    grid-column:1/3;
+    text-align: center;
+    margin-top: 20px;
+}
+.plant-msg {
+    height: 30px;
+}
+#grapes {
+    grid-column: 1/2;
+    grid-row:2/3
+
+}
 
 footer {
     background-color:rgb(106, 190, 106);
@@ -190,14 +235,14 @@ footer {
     margin-top: 200px;
     display: flex;
     justify-content: space-around;
-    align-items: center;
-
+    align-items:bottom ;
+ 
 
 }
 footer p {
     font-size: 1.2em;
     color: black;
-    font-family:  "faustina","Brush Script MT",sans-serif;
+    font-family:  "Faustina", "Times New Roman", serif;
 
 }
 footer a {
@@ -216,6 +261,27 @@ footer a:hover {
 .social img  {
     padding-top: 5px;
 } 
+
+.harvest {
+    position:relative;
+    bottom : 0;
+    width: 1500px;
+    background-color:rgb(106, 190, 106);
+    color:white;
+    padding: 25px 50px;
+    margin-top: 1000px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#grapes {
+    margin-top: 50px;
+}
+
+
+
+
+
 
 :root {
     /* 3b429f-f4b860-6a994e-cfbff7-f28123"
