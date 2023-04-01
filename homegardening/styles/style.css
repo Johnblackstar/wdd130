@@ -180,7 +180,7 @@ h1  {
     grid-row: 3/4;
 }
 .p {
-    font-family:"Faustina", "Times New Roman", serif;
+    font-family:"Faustina","Times New Roman", serif;
 
     font-size: 27px;
 }
@@ -212,11 +212,7 @@ h1  {
 
 
 }
-#benefits {
 
-    font-family: "Faustina", "Times New Roman", serif;
-    ;
-}
 
 footer {
     background-color:rgb(106, 190, 106);
